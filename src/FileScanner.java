@@ -2,8 +2,8 @@ import java.io.*;
 
 public class FileScanner {
     String[] files;
-    long totalWords = 0;
-    long totalTime = 0;
+    long totalWords;
+    long totalTime;
 
     public FileScanner(String[] files){
         this.files = files;
