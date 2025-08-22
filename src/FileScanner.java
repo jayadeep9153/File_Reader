@@ -40,8 +40,10 @@ public class FileScanner {
 
         long endTime = System.currentTimeMillis();
         this.totalTime = (endTime - startTime);
+        double timeInSec = totalTime / 1000.0;
 
         System.out.println("Total words : " + totalWords);
-        System.out.println("Total time in milliseconds " + totalTime + " ms");
+        System.out.println("Total time in milliseconds " + this.totalTime + " ms");
+        System.out.println("Total time in seconds " + timeInSec + " s");
     }
 }
